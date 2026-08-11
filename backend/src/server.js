@@ -1,5 +1,6 @@
 import express from "express";
 import dotenv from "dotenv";
+dotenv.config();
 import cors from "cors";
 import path from "path";
 
@@ -10,7 +11,6 @@ import notesRoute from "./routes/notes.route.js";
 const app = express();
 const __dirname = path.resolve();
 const PORT = process.env.PORT || 5000;
-dotenv.config();
 
 // middlewares
 if (process.env.NODE_ENV !== "production") {

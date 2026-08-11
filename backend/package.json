@@ -21,6 +21,7 @@
     "notes-project": "file:.."
   },
   "devDependencies": {
+    "concurrently": "^10.0.4",
     "nodemon": "^3.1.14"
   }
 }
